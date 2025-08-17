@@ -11,7 +11,7 @@ export default function Sidebar({ isMuted, onToggleMute }: SidebarProps) {
   const [showDocs, setShowDocs] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  const contractAddress = "0x1234567890abcdef1234567890abcdef12345678";
+  const contractAddress = "GV8ezQ55M1Rmmg3ixouLbMYjQUtAbCo4Sqc4EEkdX777";
 
   const handleCopy = async () => {
     try {
